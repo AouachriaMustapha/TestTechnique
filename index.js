@@ -65,8 +65,7 @@ function receivedMessage(event) {
   var appId = message.app_id;
   var messageText = message.text;
   var messageAttachments = message.attachments;
-  var quickReply = message.quick_reply;
-
+  
 
 if (messageText) {
 
